@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
  ~ Copyright (C) 2014 wak
  ~
  ~ Licensed under the Apache License, Version 2.0 (the "License");
@@ -16,12 +15,6 @@
  -->
 <resources>
     <string name="app_name">5x1 date and clock</string>
-
-    <string name="background_color_default" translatable="false">#99ffffff</string>
-    <string name="text_color_default" translatable="false">#000000</string>
-    <string name="message_confirm">Are you sure?</string>
-    <string name="message_success_reset_style">Style has been updated by default style</string>
-    <string name="message_invalid_color">Invalid color (%s)</string>
 
     <string name="date_text_format_12h" translatable="false">MMM dd E</string>
     <string name="date_text_format_24h" translatable="false">dd. MMM yyy</string>
