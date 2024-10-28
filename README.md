@@ -1,27 +1,14 @@
-=========
-tinyclock
-=========
+# Tiny date and clock
 
-1x1 clock widget for Android
+5x1 date and clock widget for Android
 
-https://play.google.com/store/apps/details?id=com.github.wakhub.tinyclock
+![Screenshot_20241028-192734](https://github.com/user-attachments/assets/b73d1f32-e6ad-494b-af0c-a450e144f421)
 
+## License
 
-TODO
-====
-
-- Delete AppCompat because the package size is too big (About 900K)
-- Develop branch
-- Tests
-- TravisCI
-
-
-LICENSE
-=======
-
-::
 
     Copyright 2014 wak
+    Copyright 2024 FliegendeWurst
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
