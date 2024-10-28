@@ -15,8 +15,7 @@
  ~ limitations under the License.
  -->
 <resources>
-    <string name="app_name">1x1 clock</string>
-    <string name="url_app" translatable="false">"https://play.google.com/store/apps/details?id=com.github.wakhub.tinyclock</string>
+    <string name="app_name">5x1 date and clock</string>
 
     <string name="background_color_default" translatable="false">#99ffffff</string>
     <string name="text_color_default" translatable="false">#000000</string>
@@ -24,24 +23,9 @@
     <string name="message_success_reset_style">Style has been updated by default style</string>
     <string name="message_invalid_color">Invalid color (%s)</string>
 
-    <string name="pref_explanation_for_color">#RRGGBB, #AARRGGBB or color name(white, red, …)</string>
-    <string name="pref_text_color_key" translatable="false">textColor</string>
-    <string name="pref_text_color_title">Text color</string>
-    <string name="pref_text_color_summary" translatable="false">@string/pref_explanation_for_color</string>
-    <string name="pref_background_color_key" translatable="false">backgroundColor</string>
-    <string name="pref_background_color_title">Background color</string>
-    <string name="pref_background_color_summary" translatable="false">@string/pref_explanation_for_color</string>
-    <string name="pref_reset_style_key" translatable="false">resetStyle</string>
-    <string name="pref_reset_style_title">Reset style</string>
-    <string name="pref_open_clock_app_key" translatable="false">openClockApp</string>
-    <string name="pref_open_clock_app_title">Clock app</string>
-    <string name="pref_open_datetime_settings_key" translatable="false">openDatetimeSettings</string>
-    <string name="pref_open_datetime_settings_title">Date and time settings</string>
-    <string name="pref_app_info_key" translatable="false">appInfo</string>
-    <string name="pref_app_info_title">App information</string>
-
     <string name="date_text_format_12h" translatable="false">MMM dd E</string>
-    <string name="date_text_format_24h" translatable="false">MMM dd E</string>
+    <string name="date_text_format_24h" translatable="false">dd. MMM yyy</string>
+    <string name="day_text_format" translatable="false">EEEE</string>
     <string name="time_text_format_12h" translatable="false">hh:mm a</string>
     <string name="time_text_format_24h" translatable="false">kk:mm</string>
 </resources>

@@ -13,14 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.github.wakhub.tinyclock;
+package eu.fliegendewurst.tinyclock;
 
 import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProvider;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
-import android.support.annotation.NonNull;
 import android.util.Log;
 
 /**
@@ -31,7 +30,7 @@ public class TinyClockAppWidget extends AppWidgetProvider {
     private static final String TAG = TinyClockAppWidget.class.getSimpleName();
 
     @Override
-    public void onReceive(@NonNull Context context, @NonNull Intent intent) {
+    public void onReceive(Context context, Intent intent) {
         super.onReceive(context, intent);
         AppWidgetManager appWidgetManager = AppWidgetManager.getInstance(context);
         ComponentName componentName = new ComponentName(context, TinyClockAppWidget.class);
@@ -45,10 +44,10 @@ public class TinyClockAppWidget extends AppWidgetProvider {
         ComponentName componentName = new ComponentName(context, TinyClockAppWidget.class);
         int[] allWidgetIds = appWidgetManager.getAppWidgetIds(componentName);
 
-        Intent intent = new Intent(context.getApplicationContext(), UpdateService.class);
-        intent.setAction(UpdateService.ACTION_UPDATE);
-        intent.putExtra(AppWidgetManager.EXTRA_APPWIDGET_IDS, allWidgetIds);
-        context.startService(intent);
+        //Intent intent = new Intent(context.getApplicationContext(), UpdateService.class);
+        //intent.setAction(UpdateService.ACTION_UPDATE);
+        //intent.putExtra(AppWidgetManager.EXTRA_APPWIDGET_IDS, allWidgetIds);
+        //context.startService(intent);
     }
 }
 
