@@ -1,6 +1,8 @@
 # Tiny date and clock
 
-5x1 date and clock widget for Android
+5x1 date and clock widget for Android.
+
+It shows the current day, month, year, day of week and time in a compact and readable way.
 
 ![Screenshot_20241028-192734](https://github.com/user-attachments/assets/b73d1f32-e6ad-494b-af0c-a450e144f421)
 
